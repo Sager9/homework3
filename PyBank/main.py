@@ -32,7 +32,7 @@ with open(budget, 'r') as csvfile:
         values.append(int(row[1]))
         month_aray.append(row[0])
         
-
+#finds change in proffits 
 i = 0
 total_C = 0
 for x in values:
